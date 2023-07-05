@@ -7,7 +7,7 @@ import {
   IsString,
   IsUUID,
 } from 'class-validator';
-import { Transactiontype } from '../entities/Transaction';
+import { TransactionType } from '../entities/Transaction';
 
 export class CreateTransactionDto {
   @IsString()
@@ -34,6 +34,6 @@ export class CreateTransactionDto {
   date: string;
 
   @IsNotEmpty()
-  @IsEnum(Transactiontype)
-  type: Transactiontype;
+  @IsEnum(TransactionType)
+  type: TransactionType;
 }
