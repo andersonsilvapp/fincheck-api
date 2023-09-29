@@ -1,7 +1,5 @@
 ## Como Rodar o Projeto
 
-Este projeto é uma aplicação web simples que permite [descrição do projeto]. Para executá-lo, siga as etapas abaixo.
-
 ### Pré-requisitos
 
 - [NodeJS]
